@@ -1,0 +1,48 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:wght@300;400&display=swap");
+
+/* font-family: 'Electrolize', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+/* Fontawesome */
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+/*Styles*/
+@import url("components/banner.css");
+@import url("components/button.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: "Electrolize", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Electrolize", sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+.guess {
+  background: none;
+  color: #eee;
+  border: 1px solid #eee;
+  padding: 8px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+.number {
+  font-size: 64px;
+  font-weight: 300;
+}

@@ -15,7 +15,11 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector(".message").textContent = "🎉 Correct number!";
     document.querySelector(".number").textContent = secretNumber;
     document.querySelector("body").style.backgroundColor = "#60b347";
-    document.querySelector(".number").style.width = "30rem";
+    document.querySelector(".banner").style.backgroundImage = "none";
+    document.querySelector(".banner").style.backgroundColor = "#60b347";
+    document.querySelector(".number").style.border = "5px solid white";
+    document.querySelector(".number").style.paddingLeft = "20px";
+    document.querySelector(".number").style.paddingRight = "20px";
     if (score > highscore) {
       highscore = score;
       document.querySelector(".highscore").textContent = highscore;
@@ -41,6 +45,10 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".number").textContent = "?";
   document.querySelector(".score").textContent = score;
   document.querySelector(".guess").value = "";
-  document.querySelector("body").style.backgroundColor = "#222";
-  document.querySelector(".number").style.width = "15rem";
+  document.querySelector("body").style.backgroundColor = "black";
+  document.querySelector(".banner").style.backgroundImage =
+    "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(https://source.unsplash.com/iar-afB0QQw/1600x900)";
+  document.querySelector(".banner").style.backgroundColor = "none";
+  document.querySelector(".number").style.border = "none";
+  document.querySelector(".number").style.padding = "0px";
 });

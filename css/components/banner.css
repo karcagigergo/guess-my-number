@@ -1,0 +1,23 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 80px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url(https://source.unsplash.com/iar-afB0QQw/1600x900);
+}
+
+.banner h1 {
+  margin: 0;
+  color: rgb(240, 240, 240);
+  text-shadow: 1px 1px 3px rgb(0 0 0 / 20%);
+  font-size: 64px;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
+
+.banner p {
+  font-size: 20px;
+  color: rgb(240, 240, 240);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-family: "Electrolize", sans-serif;
+}
