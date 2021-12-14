@@ -1,5 +1,5 @@
-# A simple Vanilla-JS game to guess a number.
+# 👨‍💻 A simple Vanilla-JS game to guess a number.
 
-Completed during [The Complete JavaScript Course 2022: From Zero to Expert!" course by Jonas Schmedtmann](https://www.udemy.com/course/the-complete-javascript-course/).
+💡 Completed during [The Complete JavaScript Course 2022: From Zero to Expert!"](https://www.udemy.com/course/the-complete-javascript-course/) an amazing JS course by Jonas Schmedtmann.
 
-For CSS styling, all credit goes to [Jonas Schmedtmann](https://twitter.com/jonasschmedtman)
+🔧 (This project needs some refactoring)
